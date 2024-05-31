@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CONTACT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">VINA'S DECORATION</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="Index.html">Beranda</a></li>
+          <li><a href="Catalog.html">Catalog</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Booking.html">Booking</a></li>
+          <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <body>
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Kami senang mendengar dari Anda! Jika Anda memiliki pertanyaan atau membutuhkan informasi lebih lanjut, jangan ragu untuk menghubungi kami melalui formulir di bawah ini atau melalui kontak yang tersedia.</p>
+        
+        <form action="/submit_contact_form" method="POST">
+            <label for="name">Nama Lengkap:</label><br>
+            <input type="text" id="name" name="name" placeholder="Nama Lengkap Anda" required><br><br>
+
+            <label for="email">Alamat Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Email Anda" required><br><br>
+
+            <label for="phone">Nomor Telepon:</label><br>
+            <input type="tel" id="phone" name="phone" placeholder="Nomor Telepon Anda" required><br><br>
+
+            <label for="subject">Subjek:</label><br>
+            <input type="text" id="subject" name="subject" placeholder="Subjek Pesan Anda" required><br><br>
+
+            <label for="message">Pesan:</label><br>
+            <textarea id="message" name="message" placeholder="Tulis pesan Anda di sini" rows="5" required></textarea><br><br>
+
+            <button type="button" onclick="submitForm()">Kirim</button>
+        </form>
+
+        <h3>Kontak Langsung</h3>
+        <p><strong>Alamat Kantor:</strong> Jl.Kota Gede No. 123, Yogyakarta, Indonesia</p>
+        <p><strong>Nomor Telepon:</strong> +62 9864 3689 764</p>
+        <p><strong>Email:</strong> vinasdecoration@gmail.com</p>
+        <p><strong>Jam Operasional:</strong> Senin - Jumat, 9:00 - 17:00 WIB</p>
+
+        <h3>Temukan Kami di Media Sosial</h3>
+        <p>
+            <a href="https://facebook.com/vinarahma" target="_blank">Facebook</a> |
+            <a href="https://instagram.com/vinarahma" target="_blank">Instagram</a> |
+            <a href="https://twitter.com/vinarahma" target="_blank">Twitter</a>
+        </p>
+
+        <h3>Lokasi Kami</h3>
+        <div id="map">
+            <img src="map.jpg.png"alt="Image1">
+        </div>
+    </div>
+  <footer class="container-fluid text-center">
+    <p>===This Web Made By Vina Rahma Vionita===</p>
+    <div class="social-icons">
+      <a href="https://wa.me/1234567890" target="_blank" class="btn btn-outline-light">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://www.instagram.com/vinarahma___" target="_blank" class="btn btn-outline-light">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://twitter.com/yourprofile" target="_blank" class="btn btn-outline-light">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
+    <div class="col-12">
+      <div class="text-center py-3">
+        <p>Copyright &copy; 2024</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    function submitForm() {
+      alert('Pesan Anda berhasil dikirim!');
+      document.getElementById('contactForm').reset();
+    }
+  </script>
+</body>
+</html>

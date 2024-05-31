@@ -1,0 +1,121 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e290f2e1 ;
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #981584;
+  font-size: 15px; /* Menentukan ukuran font */
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+.navbar-nav > li > a {
+  color: #faf5f5;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto; /* Memberikan jarak atas dan bawah sebesar 20px dan tengah menggunakan auto */
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #cac3c3;
+    box-shadow: 0 0 10px rgba(22, 0, 0, 0.97); /* Bayangan dengan warna rgba(0, 0, 0, 0.1) */
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Memastikan ukuran input tidak berubah karena padding dan border */
+  }
+  
+  
+  /* Styling radio buttons */
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c012b7;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #660870;
+  }
+  
+
+footer {
+    background-color: #981584; /* warna latar belakang footer */
+    color: white; /* warna teks footer */
+    padding: 15px 0; /* ruang di sekitar teks footer, ditingkatkan untuk membesarkan footer */
+  }
+  
+  footer p {
+    margin-bottom: 0; /* menghapus margin bawah pada paragraf dalam footer */
+    color: #ccc; /* warna font pada teks paragraf dalam footer */
+    font-size: 18px; /* memperbesar ukuran teks pada paragraf dalam footer */
+  }
+  
+  /* Untuk sentuhan tambahan, Anda bisa menambah jarak antar elemen di dalam footer */
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer .container p {
+    margin: 10px 0; /* menambahkan jarak antar paragraf jika ada lebih dari satu */
+  }
+  
+  footer .py-3 {
+    padding-top: 1rem; /* tambahkan ruang atas pada div dengan kelas py-3 */
+    padding-bottom: 1rem; /* tambahkan ruang bawah pada div dengan kelas py-3 */
+  }
+  footer .social-icons {
+    margin: 5px 0; /* menambahkan jarak di sekitar ikon sosial */
+  }
+  
+  footer .social-icons a {
+    color: white; /* warna ikon sosial */
+    font-size: 24px; /* ukuran ikon sosial */
+    margin: 0 10px; /* jarak antar ikon sosial */
+    transition: color 0.3s ease; /* transisi halus untuk efek hover */
+    text-decoration: none; /* menghilangkan garis bawah pada tautan */
+  }
+  
+  footer .social-icons a:hover {
+    color: #ccc; /* warna ikon saat dihover */
+  }
+  

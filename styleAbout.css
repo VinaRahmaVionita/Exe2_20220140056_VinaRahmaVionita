@@ -1,0 +1,119 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e290f2e1; 
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #981584;
+  font-size: 15px; /* Menentukan ukuran font */
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+.navbar-nav > li > a {
+  color: #faf5f5;
+}
+
+.logo {
+  font-size: 200px;
+}
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+}
+
+.container {
+    text-align: center; /* Mengatur teks di tengah */
+  }
+  
+  .container p {
+    font-weight: bold;
+    padding-top: 30px;
+    font-size: 20px;
+    margin-bottom: 10px; /* Memberikan jarak antara teks dan gambar */
+  }
+  
+  .container img {
+    display: block; /* Membuat gambar menjadi elemen block */
+    margin: 0 auto; /* Mengatur gambar ke tengah */
+    max-width: 100%; /* Memastikan gambar tidak melebihi lebar container */
+    border-radius: 30px;
+  }
+  
+  
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color:#8a0d73;
+  }
+  
+  .carousel-indicators li {
+    border-color: #8a0d73;
+  }
+  
+  .carousel-indicators li.active {
+    background-color: #8a0d73;
+  }
+
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  
+  .item span {
+    font-style: normal;
+  }
+
+footer {
+    background-color: #981584; /* warna latar belakang footer */
+    color: white; /* warna teks footer */
+    padding: 15px 0; /* ruang di sekitar teks footer, ditingkatkan untuk membesarkan footer */
+  }
+  
+  footer p {
+    margin-bottom: 0; /* menghapus margin bawah pada paragraf dalam footer */
+    color: #ccc; /* warna font pada teks paragraf dalam footer */
+    font-size: 18px; /* memperbesar ukuran teks pada paragraf dalam footer */
+  }
+  
+  /* Untuk sentuhan tambahan, Anda bisa menambah jarak antar elemen di dalam footer */
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer .container p {
+    margin: 10px 0; /* menambahkan jarak antar paragraf jika ada lebih dari satu */
+  }
+  
+  footer .py-3 {
+    padding-top: 1rem; /* tambahkan ruang atas pada div dengan kelas py-3 */
+    padding-bottom: 1rem; /* tambahkan ruang bawah pada div dengan kelas py-3 */
+  }
+  footer .social-icons {
+    margin: 5px 0; /* menambahkan jarak di sekitar ikon sosial */
+  }
+  
+  footer .social-icons a {
+    color: white; /* warna ikon sosial */
+    font-size: 24px; /* ukuran ikon sosial */
+    margin: 0 10px; /* jarak antar ikon sosial */
+    transition: color 0.3s ease; /* transisi halus untuk efek hover */
+    text-decoration: none; /* menghilangkan garis bawah pada tautan */
+  }
+  
+  footer .social-icons a:hover {
+    color: #ccc; /* warna ikon saat dihover */
+  }

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BOOKING</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <link rel="stylesheet" href="styleBo.css">
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">VINA'S DECORATION</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="Index.html">Beranda</a></li>
+          <li><a href="Catalog.html">Catalog</a></li>
+          <li><a href="About.html">About</a></li>
+          <li><a href="Booking.html">Booking</a></li>
+          <li><a href="Contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3> BOOKING DECORATION </h3>
+        </div>
+        <form action="">
+            <label for="nama" style="font-weight: bold;">Nama</label><br>
+            <input type="text" placeholder="Nama Lengkap Anda" id="nama"><br>
+            <label for="telepon" style="font-weight: bold;">Telepon</label><br>
+            <input type="text" placeholder="Telepon anda(WA)" id="telepon"><br>
+            <p><bold>Gaya Dekorasi:</bold></p>
+
+            <input type="radio" name="Decoration" id="vintage" value="vintage">
+            <label for="vintage">Vintage</label><br>
+            <input type="radio" name="Decoration" id="modern" value="modern">
+            <label for="modern">Modern</label><br>
+            <input type="radio" name="Decoration" id="minimalis" value="minimalis">
+            <label for="minimalis">Minimalis</label><br>
+            <input type="radio" name="Decoration" id="bohemian" value="bohemian">
+            <label for="bohemian">Bohemian</label><br><br>
+            
+            <label for="guest_count">Jumlah Tamu:</label>
+            <input type="number" id="guest_count" name="guest_count" min="1" required>
+            <br><br>
+
+            <label for="wedding_date">Tanggal Pernikahan:</label>
+            <input type="date" id="wedding_date" name="wedding_date" required>
+            <br><br>
+            
+            <label for="lokasi_pernikahan" style="font-weight: bold;">Lokasi Pernikahan</label><br>
+            <textarea placeholder="Tulis lokasi pernikahan anda disini" name="lokasi_pernikahan" id="lokasi_pernikahan" cols="30" rows="5"></textarea><br><br>
+
+            <label for="deskripsi" style="font-weight: bold;">Deskripsi Tambahan</label><br>
+            <textarea placeholder="Tulis deskripsi yang ingin anda sampaikan kepada kami disini" name="deskripsi" id="deskripsi" cols="30" rows="5"></textarea><br><br>
+            <button type="submit" onclick="kirimData(event)">Kirim</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="script.js"></script>
+
+<footer class="container-fluid text-center">
+  <p>===This Web Made By Vina Rahma Vionita===</p>
+  <div class="social-icons">
+    <a href="https://wa.me/1234567890" target="_blank" class="btn btn-outline-light">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://www.instagram.com/vinarahma___" target="_blank" class="btn btn-outline-light">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://twitter.com/yourprofile" target="_blank" class="btn btn-outline-light">
+      <i class="fab fa-twitter"></i>
+    </a>
+  </div>
+  <div class="col-12">
+    <div class="text-center py-3">
+      <p>Copyright &copy; 2024</p>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

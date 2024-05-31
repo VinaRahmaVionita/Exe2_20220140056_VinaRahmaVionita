@@ -1,0 +1,121 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e290f2e1; 
+}
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #981584;
+  font-size: 15px; /* Menentukan ukuran font */
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+}
+
+.navbar-nav > li > a {
+  color: #faf5f5;
+}
+
+.carousel-inner img {
+    width: 1000px; /* Set width to 100% */
+    margin: auto;
+    height: 100%;
+}
+
+.carousel-caption h3 {
+  font-size: 30px; /* Ukuran font judul */
+  margin-bottom: 10px; /* Jarak antara judul dan deskripsi */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:aliceblue;
+}
+
+.carousel-caption p {
+  font-size: 20px; /* Ukuran font deskripsi */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:aliceblue;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+.img-responsive {
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Remove rounded borders from list */
+.thumbnail {
+    position: relative;
+    overflow: hidden;
+    background-color: #e1a8d1; /* Ganti dengan warna latar belakang yang diinginkan */
+  }
+  
+  .thumbnail img {
+    width: 500px;
+    height: 500px; /* Sesuaikan tinggi yang diinginkan */
+    object-fit: cover;
+    border-radius: 20px; /* Atur sudut melengkung sesuai keinginan */
+  }
+
+  .thumbnail p {
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  
+footer {
+    background-color: #981584; /* warna latar belakang footer */
+    color: white; /* warna teks footer */
+    padding: 15px 0; /* ruang di sekitar teks footer, ditingkatkan untuk membesarkan footer */
+  }
+  
+  footer p {
+    margin-bottom: 0; /* menghapus margin bawah pada paragraf dalam footer */
+    color: #ccc; /* warna font pada teks paragraf dalam footer */
+    font-size: 18px; /* memperbesar ukuran teks pada paragraf dalam footer */
+  }
+  
+  /* Untuk sentuhan tambahan, Anda bisa menambah jarak antar elemen di dalam footer */
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer .container p {
+    margin: 10px 0; /* menambahkan jarak antar paragraf jika ada lebih dari satu */
+  }
+  
+  footer .py-3 {
+    padding-top: 1rem; /* tambahkan ruang atas pada div dengan kelas py-3 */
+    padding-bottom: 1rem; /* tambahkan ruang bawah pada div dengan kelas py-3 */
+  }
+  footer .social-icons {
+    margin: 5px 0; /* menambahkan jarak di sekitar ikon sosial */
+  }
+  
+  footer .social-icons a {
+    color: white; /* warna ikon sosial */
+    font-size: 24px; /* ukuran ikon sosial */
+    margin: 0 10px; /* jarak antar ikon sosial */
+    transition: color 0.3s ease; /* transisi halus untuk efek hover */
+    text-decoration: none; /* menghilangkan garis bawah pada tautan */
+  }
+  
+  footer .social-icons a:hover {
+    color: #ccc; /* warna ikon saat dihover */
+  }
+
+  .container {
+    padding-top: 20px; /* Sesuaikan sesuai kebutuhan */
+    padding-bottom: 20px; /* Sesuaikan sesuai kebutuhan */
+    font-size: 20px;
+}
+  
